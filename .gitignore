@@ -1,0 +1,128 @@
+# Visual Studio specific
+.vscode/
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Visual Studio Code specific
+.history/
+.vscode/*
+*.code-workspace
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folders related to IIS
+_IISExpress/
+IISExpress/
+.web/
+
+# Web server folder
+wwwroot/
+
+# Avoid uploading test results
+TestResults/
+
+# DotNet specific
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+project.lock.json
+project.fragment.lock.json
+.nuget/packages/
+.nuget/repository/
+
+# Entity Framework
+*.edmx.diagram
+*.edmx.sql
+*.edmx.json
+
+# SQL Server files
+*.mdf
+*.ldf
+*.ndf
+
+# Visual Studio 2019/2022 bookmark files
+*.suo
+
+# Rider
+.idea/
+
+# Visual Studio database cache files
+*.dbmdl
+*.dbml
+
+# User-specific files
+*.rsuser
+*.suo
+*.sln.docstates
+*.userprefs
+
+# Deployment
+.publish/
+
+# Auto-generated files by Visual Studio
+Generated\
+
+# Python specific
+__pycache__/
+*.py[cod]
+
+# Node.js specific
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+yarn.lock
+
+# JetBrains Rider
+.idea/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.backup.db
+.apdisk
+
+# Windows
+$RECYCLE.BIN/
+
+# Windows shortcuts
+*.lnk
+
+# Explicitly include .html files
+!*.html
+!wwwroot/*.html
+!Generated/*.html
